@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rest-with-spring-boot-and-java
+  datasource:
+    url: jdbc:mysql://localhost:3306/your_database
+    username: YOUR_DB_USERNAME
+    password: YOUR_DB_PASSWORD
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false

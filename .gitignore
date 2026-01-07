@@ -1,0 +1,38 @@
+# Compiled files
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive configuration files
+**/application.yml
+**/application.properties
+**/application-*.yml
+**/application-*.properties
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Build files
+build/
+dist/
+out/
